@@ -13,7 +13,12 @@ class LoginPage extends StatelessWidget {
       backgroundColor: Colors.grey.shade100,
       body: SafeArea(
         child: Center(
+          child:Padding(
+            padding:EdgeInsets.all(24),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            spacing: 30,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text('Welcome'),
               TextField(
@@ -23,14 +28,17 @@ class LoginPage extends StatelessWidget {
                 decoration: InputDecoration(labelText: "Password"),
                 
               ),
-              SizedBox(height: 16,),
+              SizedBox(height: 80,),
+              ColoredBox(color:Color(0xFF6200EE),
+               child:
               ElevatedButton(
                 onPressed: () {},
-                child: Text('Login'),)
+                child: Text('Login'),))
 
             ],
           ),
         ),
+      ),
       ),
     );
   }
