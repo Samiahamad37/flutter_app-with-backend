@@ -14,11 +14,10 @@ class LoginPage extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child:Padding(
-            padding:EdgeInsets.all(24),
+            padding:EdgeInsets.all(80),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            spacing: 30,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+           mainAxisAlignment: MainAxisAlignment.center,
+           crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text('Welcome'),
               TextField(
