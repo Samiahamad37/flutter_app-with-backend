@@ -31,10 +31,15 @@ class LoginPage extends StatelessWidget {
               ColoredBox(color:Color(0xFF6200EE),
                child:
               ElevatedButton(
-                onPressed: () {},
-                child: Text('Login'),))
+                onPressed: () {
+                  Navigator.pushNamed(context, '/register');
 
+                },
+                child: Text('Login'),)),
+              Text('New User? Register Here',)
+               
             ],
+
           ),
         ),
       ),
