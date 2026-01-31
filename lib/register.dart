@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const LoginPage());
+  runApp(const RegisterPage());
 }
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+class RegisterPage extends StatelessWidget {
+  const RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,9 @@ class LoginPage extends StatelessWidget {
               ColoredBox(color:Color(0xFF6200EE),
                child:
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  
+                },
                 child: Text('Register'),))
 
             ],
